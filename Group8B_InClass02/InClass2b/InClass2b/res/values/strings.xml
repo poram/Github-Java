@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">In Class 2b</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="euro">Euro(EUR)</string>
+    <string name="canada">Canadian Dollar(CAD)</string>
+    <string name="british">British Pound(GBP)</string>
+    <string name="japan">Japanese Yen(JPY)</string>
+    <string name="clear">Clear All</string>
+    <string name="convert">Convert</string>
+ 	<string name="hint1">Amount (USD)</string>
+    <string name="hint2">Result:</string>
+</resources>

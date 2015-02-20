@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">In Class 03</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="lang_text">Favorite Programming Language:</string>
+    <string name="acct_text">Account is searchable</string>
+    <string name="mood_txt">Your current mood:</string>
+    <string name="submit_button">Submit</string>
+    <string name="save_button">Save</string>
+    <string name="radio_java">Java</string>
+    <string name="radio_c">C</string>
+    <string name="radio_c1">C#</string>
+    <string name="nothing"></string>
+    <string name="title">Student Information</string>
+    <string name="name">Name: </string>
+    <string name="email">Email: </string>
+    <string name="lang">Prog. Language: </string>
+    <string name="account">Account State: </string>
+    <string name="mood">Mood: </string>
+    <string name="title_activity_edit">Edit Activity</string>
+
+</resources>

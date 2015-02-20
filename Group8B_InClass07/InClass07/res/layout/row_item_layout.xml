@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/photoImage"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_title"
+        android:src="@drawable/photo_not_found" />
+
+    <TextView
+        android:id="@+id/photoTitle"
+        android:layout_width="102dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:text="@string/photo_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/starImage"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/star_title"
+        android:src="@drawable/favorites_grey" />
+
+</LinearLayout>

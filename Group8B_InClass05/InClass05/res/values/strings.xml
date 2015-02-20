@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">In Class 05</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="srch_txt">Search keyword</string>
+    <string name="btn_txt">Go</string>
+    <string name="prev_txt">previous</string>
+    <string name="next_txt">next</string>
+
+</resources>

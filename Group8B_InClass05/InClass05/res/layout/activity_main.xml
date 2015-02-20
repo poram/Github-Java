@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/flickrimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/srchtxt"
+        android:layout_alignEnd="@+id/srchtxt"
+        android:layout_below="@+id/go_btn"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/srchtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/previmgview"
+        android:layout_alignStart="@+id/previmgview"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/srch_txt" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/previmgview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/go_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/srchtxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/switch1"
+        android:layout_toRightOf="@+id/switch1"
+        android:text="@string/btn_txt" />
+
+    <ImageView
+        android:id="@+id/previmgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/prev_txt"
+        android:src="@drawable/ic_action_previous_item" />
+
+    <ImageView
+        android:id="@+id/nextimgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/next_txt"
+        android:src="@drawable/ic_action_next_item" />
+
+</RelativeLayout>
